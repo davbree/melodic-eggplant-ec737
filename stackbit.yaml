@@ -44,6 +44,7 @@ models:
           - PageLayout
           - ImageBlock
           - PostLayout
+          - Config
       - type: string
         name: excerpt
         label: Excerpt
