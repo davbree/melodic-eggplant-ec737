@@ -24,6 +24,20 @@ contentModels:
   Person:
     newFilePath: 'team/{slug}.json'
 models:
+  Config:
+    type: data
+    name: Config
+    singleInstance: true
+    label: Site configuration
+    fields:
+      - type: model
+        name: navBar
+        label: Navbar configuration
+        models: [NavBar]
+      - type: model
+        name: footer
+        label: Footer configuration
+        models: [Footer]
   PostLayout:
     name: PostLayout
     label: Post
