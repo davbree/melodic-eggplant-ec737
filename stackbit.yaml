@@ -36,17 +36,6 @@ models:
       - type: date
         name: date
         label: Date
-      - type: list
-        name: author
-        label: Author
-        items:
-          type: reference
-          models:
-            - Person
-            - PageLayout
-            - ImageBlock
-            - PostLayout
-            - Config
       - type: string
         name: excerpt
         label: Excerpt
