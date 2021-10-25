@@ -10,7 +10,7 @@
         "isDynamic": true
     },
     "ContactSection": {
-        "path": "c omponents/ContactSection",
+        "path": "components/ContactSection",
         "modelName": "ContactSection",
         "isDynamic": true
     },
