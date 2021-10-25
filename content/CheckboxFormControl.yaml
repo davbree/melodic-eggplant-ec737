@@ -8,7 +8,7 @@ fields:
   - type: string
     name: name
     label: Name
-    default: 'Checkbox'
+    default: 'Che111ckbox'
   - type: string
     name: label
     label: Label
